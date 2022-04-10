@@ -6,7 +6,7 @@
 /*   By: kfujita <kfujita@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/10 13:37:46 by tetsu             #+#    #+#             */
-/*   Updated: 2022/04/10 13:44:08 by kfujita          ###   ########.fr       */
+/*   Updated: 2022/04/10 16:52:03 by kfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(const char *s1, const char *s2);
 
 void	*ft_memchr(const void *s, int c, size_t n);
-void	*ft_memcmp(const void *s1, const void *s2, size_t n);;
+void	*ft_memcmp(const void *s1, const void *s2, size_t n);
 
 char	*ft_strstr(const char *haystack, const char *needle);
 
