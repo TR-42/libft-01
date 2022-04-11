@@ -6,7 +6,7 @@
 /*   By: kfujita <kfujita@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/10 16:51:02 by kfujita           #+#    #+#             */
-/*   Updated: 2022/04/11 22:56:39 by kfujita          ###   ########.fr       */
+/*   Updated: 2022/04/11 23:55:19 by kfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	looking_for = (unsigned char)c;
 	while (--n > 0 && *p_s != looking_for)
 		p_s++;
-
 	if (*p_s == looking_for)
 		return (p_s);
 	else
